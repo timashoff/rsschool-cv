@@ -1,7 +1,7 @@
 # Roman Timashev
 
 
-## Contacts:
+## Contacts
 - **Saint Petersburg**  ✈️  **Bishkek, Kyrgyzstan** 
 - +996 702 234 087
 - timashoff@gmail.com
@@ -24,7 +24,7 @@ Aiming to become a senior Full Stack developer and probably lead the team.
 - React
 
 
-## Code example:
+## Code example
 Codewars Kata **Partition On**:
 
 Description:
