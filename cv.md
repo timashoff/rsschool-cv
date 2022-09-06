@@ -2,7 +2,7 @@
 
 
 ## Contacts:
-- **Saint Petersburg**  :airplane:  **Bishkek, Kyrgyzstan**
+- **Saint Petersburg**  ✈️  **Bishkek, Kyrgyzstan** 
 - +996 702 234 087
 - timashoff@gmail.com
 - [**GitHub**](https://github.com/timashoff)
