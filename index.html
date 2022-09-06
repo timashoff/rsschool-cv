@@ -9,5 +9,85 @@
 </head>
 <body>
 
+ <!-- HTML код скопирован из devTools Chrome и слегка стилизован -->
+
+  <h1 id="roman-timashev">Roman Timashev</h1>
+
+  <img class="img-avatar" src="https://avatars.githubusercontent.com/u/83927854?v=4" alt="avatar">
+
+  <h2 id="contacts">Contacts<a class="anchorjs-link " href="#contacts" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <ul>
+    <li><strong>Saint Petersburg</strong>  ✈️  <strong>Bishkek, Kyrgyzstan</strong></li>
+    <li>+996 702 234 087</li>
+    <li>timashoff@gmail.com</li>
+    <li><a href="https://github.com/timashoff"><strong>GitHub</strong></a></li>
+    <li><a href="https://twitter.com/timashoff"><strong>Twitter</strong></a></li>
+    <li><a href="https://t.me/timashoff"><strong>Telegram</strong></a></li>
+  </ul>
+
+  <h2 id="about-me">About me<a class="anchorjs-link " href="#about-me" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <p>Passionate about React.js and eager to learn Node.js  <br>
+  I know how to make decisions and take responsibility for them <br>
+  Aiming to become a senior Full Stack developer and probably lead the team.</p>
+
+  <h2 id="skills">Skills<a class="anchorjs-link " href="#skills" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>Git</li>
+    <li>React</li>
+  </ul>
+
+  <h2 id="code-example">Code example<a class="anchorjs-link " href="#code-example" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <p>Codewars Kata <strong>Partition On</strong>:</p>
+
+  <p>Description:</p>
+  <blockquote>
+    <p><em>Write a function which partitions a list of items based on a given predicate.
+  After the partition function is run, the list should be of the form [ F, F, F, T, T, T ] where the Fs (resp. Ts) are items for which the predicate function returned false (resp. true).
+  NOTE: the partitioning should be stable; in other words: the ordering of the Fs (resp. Ts) should be preserved relative to each other.
+  For convenience and utility, the partition function should return the boundary index. In other words: the index of the first T value in items.</em></p>
+  </blockquote>
+
+  <p>Code:</p>
+  <div class="language-javascript highlighter-rouge">
+    <div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">partitionOn</span><span class="p">(</span><span class="nx">pred</span><span class="p">,</span> <span class="nx">items</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="p">[</span><span class="nx">firstArray</span><span class="p">,</span> <span class="nx">secondArray</span><span class="p">]</span> <span class="o">=</span> <span class="nx">items</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">acc</span><span class="p">,</span> <span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="nx">pred</span><span class="p">(</span><span class="nx">item</span><span class="p">)?</span> <span class="nx">acc</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nx">push</span><span class="p">(</span><span class="nx">item</span><span class="p">)</span> <span class="p">:</span> <span class="nx">acc</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">push</span><span class="p">(</span><span class="nx">item</span><span class="p">)</span>
+      <span class="k">return</span> <span class="nx">acc</span>
+    <span class="p">},</span> <span class="p">[[],</span> <span class="p">[]])</span>
+  
+    <span class="nx">items</span><span class="p">.</span><span class="nx">splice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">items</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span> <span class="p">...</span><span class="nx">firstArray</span><span class="p">,</span> <span class="p">...</span><span class="nx">secondArray</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nx">firstArray</span><span class="p">.</span><span class="nx">length</span>
+  <span class="p">}</span>
+  </code></pre>
+</div>
+</div>
+
+  <h2 id="work-experience">Work experience<a class="anchorjs-link " href="#work-experience" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <p>Past entrepreneurial activity not related to the IT-industry</p>
+
+  <h2 id="education">Education<a class="anchorjs-link " href="#education" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <ol>
+    <li><a href="https://www.coursera.org/learn/learning-how-to-learn"><strong>Learning How to Learn</strong></a> on Coursera</li>
+    <li><a href="https://javascript.info"><strong>The Modern JavaScript Tutorial</strong></a> by Ilya Kantor</li>
+    <li><a href="https://htmlacademy.ru/profile/timashoff"><strong>HTML Academy</strong></a> workshop</li>
+    <li><a href="https://www.udemy.com/certificate/UC-3cdac213-c6a9-4234-9846-4f9743c3f63a/"><strong>React by Bogdan Stashchuk</strong></a> on Udemy</li>
+    <li><a href="https://rs.school/js/"><strong>JavaScript/Front-end 2022Q3</strong></a> RS school ( <em>in progress…</em> )</li>
+  </ol>
+
+  <h2 id="language">Language<a class="anchorjs-link " href="#language" aria-label="Anchor" data-anchorjs-icon="" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: 1; font-family: anchorjs-icons; padding-left: 0.375em;"></a></h2>
+  <p><strong>Russian</strong>  -  Native <br>
+  <strong>English</strong>  -  CEFR A2+<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+  <div class="footnotes" role="doc-endnotes">
+    <ol>
+      <li id="fn:1" role="doc-endnote">
+        <p>I had language practice for a year when I lived in Hong Kong&nbsp;<a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+      </li>
+    </ol>
+  </div>
+  
 </body>
 </html>
