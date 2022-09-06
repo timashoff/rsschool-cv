@@ -11,9 +11,9 @@
 
 
 ## About me
-Passionate about React.js and eager to learn Node.js
-I know how to make decisions and take responsibility for them
-Aiming to become a senior Full Stack developer and probably lead the team.
+Passionate about React.js and eager to learn Node.js    
+I know how to make decisions and take responsibility for them   
+Aiming to become a senior Full Stack developer and probably lead the team.    
 
 
 ## Skills 
