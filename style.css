@@ -1,0 +1,29 @@
+
+body {
+margin: 1rem auto;
+padding: 1rem;
+background-color: rgb(22,19,18);
+color: aliceblue;
+font-family: Helvetica, serif;
+max-width: 560px;
+}
+
+
+.language-javascript {
+  font-size: 1rem;
+  font-weight: 200;
+  color:cornflowerblue;
+}
+
+.img-avatar {
+  max-width: 290px;
+  border-radius: 2%;
+}
+
+a {
+  color:aquamarine;
+}
+
+a:hover {
+  color:slateblue;
+}
